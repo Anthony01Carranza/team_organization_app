@@ -1,22 +1,80 @@
-.orgSection{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+@media only screen and (max-width: 440px) {
+    .orgSection {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 200px;
+    }
+    
+    .orgSection h3{
+        font-size: 40px;
+        color: #6278F7;
+        font-weight: 400;
+        font-family: 'Prata';
+        padding-bottom: 24px;
+        border-bottom: 4px solid  #6278F7 ;
+        margin-top: 124px;
+    }
+    
+    
+    .orgSection img {
+        position: absolute;
+        margin: 0px 10px 76px 0px;
+        cursor: pointer;
+        align-content: center;
+    }
+
 }
 
-.orgSection h3{
-    font-size: 40px;
-    color: #6278F7;
-    font-weight: 400;
-    font-family: 'Prata';
-    padding-bottom: 24px;
-    border-bottom: 4px solid  #6278F7 ;
+@media only screen and (min-width: 441px) and ( max-width: 999px)  {
+    .orgSection{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .orgSection h3{
+        font-size: 40px;
+        color: #6278F7;
+        font-weight: 400;
+        font-family: 'Prata';
+        padding-bottom: 24px;
+        border-bottom: 4px solid  #6278F7 ;
+    }
+    
+    
+    .orgSection img {
+        position: absolute;
+        right: 15%;
+        cursor: pointer;
+    }
+
 }
 
+@media only screen and (min-width: 1000px) {
+    .orgSection{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .orgSection h3{
+        font-size: 40px;
+        color: #6278F7;
+        font-weight: 400;
+        font-family: 'Prata';
+        padding-bottom: 24px;
+        border-bottom: 4px solid  #6278F7 ;
+    }
+    
+    
+    .orgSection img {
+        position: absolute;
+        right: 30%;
+        cursor: pointer;
+    }
 
-.orgSection img {
-    position: absolute;
-    right: 30%;
-    cursor: pointer;
 }

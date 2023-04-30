@@ -10,8 +10,8 @@ const Footer = () => {
             <img src="/img/link.png" alt='linkedin' />
         </a>
     </div>
-    <img src='/img/Logo.png' alt='org' />
-    <strong>Developed by Anthony Carranza</strong>
+    <img src='/img/Logo.png' className="footer_logo" alt='org' />
+    <strong className="footer-titulo">Developed by<br/>Anthony Carranza</strong>
 </footer>
 }
 

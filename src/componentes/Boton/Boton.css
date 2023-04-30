@@ -1,17 +1,64 @@
-.boton {
+@media only screen and (min-width: 1000px) {
+
+    .boton {
+        background-color: #6278f7;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding: 24px 32px;
+        border: none;
+        color: #ffffff;
+        margin: 32px 0;
+        cursor: pointer;
+        
+    
+    }
+    
+    .boton:hover {
+        color: #95FFD4;
+    }
+
+}
+@media only screen and (min-width: 441px) and ( max-width: 999px)  {
+
+    .boton {
+        background-color: #6278f7;
+        border-radius: 10px;
+        font-family: 'Montserrat', sans-serif;
+        font-weight: 700;
+        padding: 24px 203px;
+        border: none;
+        color: #ffffff;
+        margin: 30px 70px;
+        cursor: pointer;
+        }
+    
+        .boton:hover {
+            color: #95FFD4;
+        }
+
+}
+
+
+@media only screen and (max-width: 440px) {
+
+    .boton {
     background-color: #6278f7;
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
-    padding: 24px 32px;
+    padding: 24px 90px;
     border: none;
     color: #ffffff;
-    margin: 32px 0;
+    margin: 35px 72px;
     cursor: pointer;
+    }
+
+    .boton:hover {
+        color: #95FFD4;
+    }
     
-
+    
 }
 
-.boton:hover {
-    color: #95FFD4;
-}
+
